@@ -1,84 +1,85 @@
 Open main1.py. Before running it, what do you expect this program to do? 
-
+I expect this program to do its function.
 Now right click on the window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened. 
-
+Terminal got opened up.
 What do you think the program did with what you typed?
-
+The screen showed whay I typed. It also saved the answer so the program can tell me if I typed the wrong answer or not. 
 
 
 Open main2.py. Before running it, describe how this is different than main1.py. 
-
+main2. py says print(color).
 What do you think the color = input() will do? 
-
+I think the color - input () will display sutff that I typed in.
 Run the program in the terminal and answer the question. Did the program do what you expected?
-
+I ran the program and the program did what I expected. It displayed what I typed in.
 
 
 Open main3.py. Before running it, describe how this is different than main2.py. 
-
+There are two possible outcomes. It will either display 'Correct!' or 'Sorry, try again.'
 What is happening on lines 11–14? 
-
+It is telling me that the answeres will be different, depending on what I type for the answer. If I type my favorite color, it will display 'Correct!' If I type the wrong answer, it will display 'Sorry, try again.'
 Why are lines 12 and 14 indented? 
-
+Lines 12 and 14 are indented because these lines will show the answers.
 Run the program and answer the question. What happens if you don’t capitalize Red? 
-
+The screen will display 'Sorry, try again.' I did not capitalize Red. The screen displayed 'Sorry, try again.'
 What does this tell you about "color"?
-
+This tells me that my favorite 'color' is 'Red' and it should be capitalized.
 
 
 Open main4.py. Before running it, describe how this is different than main2.py. 
-
+main4. py displays if (color == 'Red' or color == 'red). I bet now I can type either 'Red' or 'red.'
 What problem is this trying to solve? 
-
+This is trying to solve capitalization problem so I don't have to capitalize 'Red' everytime I type my favorite color.
 Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
-
+I used the other capitalizations like 'RED' and 'reD.' The program displayed 'Sorry, try again.' 
 
 
 Open main5.py. What do you expect line 11 to do? 
-
+I expect line 11 to understand both capitalized and uncapitalized 'red.'
 What problem is it trying to solve? 
-
+It is trying to solve capitalization problem. 
 Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “  RED  “ or “ red”)?
-
+If I add spaces before of after the word 'red,' the program displays 'Sorry, try again.'
 
 
 Open main6.py. How is line 11 different than main5.py? 
-
+Line 11 in main6. py is different because it displays if (color.lower().strip() == 'red'), while line 11 inmain5.py shows if (color.lower() == 'red').  
 What would you guess .strip() is doing? 
-
+I would guess that .strip() is going to break the rules of typing 'Red.' 
 Run the program and answer the question. Is there another way of writing “red” that will break this logic?
-
+Yes, there are other ways of writing "red" that will break this logic. I could write "red" like 'Red,' 'red,' 'REd,' 'reD,' and ' red.'
 
 
 Open main7.py. Before running this program, how do you expect this to be different than main6.py? 
-
+I expect that main7.py would not display 'Sorry, try again' if I only type a specific color. 
 What is the purpose of line 11? 
-
+The purpose of line 11 is to break the rules of capitalizing the word 'red.'
 Run the program and answer the question.
-
+I ran the program. When I typed 'Red' in both capitalized and uncapitalized, the program displayed 'Correct!' When I typed 'pink' in both capitalized and uncapitalized, it displayed 'Close!' When I typed other color, such as green, the program displayed 'Sorry, try again.'
 
 
 Open main8.py. What is the purpose of line 11? 
-
+The purpose of line 11 is that the program can detect I typed 'red.'
 Why are lines 12–19 indented? 
-
+Lines 12-19 are indented because they are the possible outcomes, depending on what I typed. 
 Run the program. What would happen if line 12 were moved before line 11 (and no longer indented)? 
-
+If the line 12 were moved before line 11 and no longer indented, there can be errors, such as outcomes may not be displayed. 
 Make that change and run the program again. To end any Python program, you can type ctrl-c.
-
+I made the changed and ran the program. 'Red' could not be displayed. When I typed 'pink,' the program displayed 'Close!'
 
 
 Open main9.py. What is happening on line 12? 
-
-What is the purpose of “count”? 
-
+Line 12 is showing that there are three possible outcomes: correct, close, or sorry, try again.
+What is the purpose of “count”? ie
+The purpose of 'count' is to show how many attempts I made at the end.
 What is happening on line 22? 
-
+Line 22 will show how many attempts I tried. For example, if I do right in 3 attempts, the program will display 'You guessed it in 3 tries!'
 Run the program.
-
+I ran the program. When I typed 'red,' which is the right answer, I got the answer at once. The program displayed 'Correct!' and 'You guessed it in 1 tries!' When I typed 'pink,' the program displayed 'Close!' When I typed 'green,' it displayed 'Sorry, try again.' When I finally typed 'red,' it displayed 'Correct!' and 'You guessed it in 3 tries!' 
 
 *Extra credit:* open main10.py. Add a comment to each line describing what it is doing (a comment follows a pound sign [#]). 
 
 Commit your changes and push them back to the repository. 
 
 Did you do the extra credit?
+No, I did not do the extra credit. 
